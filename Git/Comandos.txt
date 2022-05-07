@@ -1,5 +1,15 @@
 Alguns comandos importantes do git.
-git init -- Iniciar Commit Local
-git add -- Adicionar arq em controle de versão Local
-git commit -m -- "Mensagem" Inclusão
-git push origin main -- Enviar commits locais para nuvem
+git init _Criar novo repositório Local
+git status _Verificar estado do repositório
+git add nome.txt _Add Arq txt 
+git add nome _Add diretório "nome" 
+git add . _Adicionar todos arq/dir
+git config --global user.name "Nome" _Add Nome
+git config --global user.email "Email" _Add Email
+git config --list _Listar Configurações
+git commit  _Comitar arq
+git commit -m "Mensagem" _Comitar coma a flag de enviar mensagem
+git rm nome.txt _Remover arq
+git rm -r _Remover dir
+git log _Visualizar Historico
+git push origin main _Enviar commits locais para nuvem
