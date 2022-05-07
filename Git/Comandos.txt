@@ -1,0 +1,5 @@
+Alguns comandos importantes do git.
+git init -- Iniciar Commit Local
+git add -- Adicionar arq em controle de versão Local
+git commit -m -- "Mensagem" Inclusão
+git push origin main -- Enviar commits locais para nuvem
